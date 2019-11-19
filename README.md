@@ -1,2 +1,0 @@
-# portofolio
-menyelesaikan kelas dicoding
