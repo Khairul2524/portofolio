@@ -1,383 +1,474 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Khairul Kahpi - Web Programmer dengan pengalaman lebih dari 4 tahun dalam pengembangan sistem berbasis web menggunakan CodeIgniter, Laravel, MySQL, MongoDB, RESTful API, OOP, dan pengujian fungsional.">
-    <title>Khairul Kahpi | Web Programmer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/aku.jpg">
-    <link href="css/stayle.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Khairul Kahpi - Web Programmer dengan fokus pada Fullstack Developer, Laravel, CodeIgniter, MySQL, MongoDB, RESTful API, dan kualitas sistem."
+    />
+    <title>Khairul Kahpi | Fullstack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/aku.jpg" />
+    <link href="css/stayle.css" rel="stylesheet" />
+  </head>
+  <body>
     <header class="site-header" id="top">
-        <div class="container nav-shell">
-            <a href="#home" class="brand"><span>Khairul</span> Kahpi</a>
+      <div class="container nav-shell">
+        <a href="#home" class="brand">
+          <span class="brand-copy">
+            <strong>Khairul Kahpi</strong>
+            <small>Fullstack Developer</small>
+          </span>
+        </a>
 
-            <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Buka navigasi">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Buka navigasi"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-            <nav class="site-nav" id="site-nav">
-                <a href="#home">Beranda</a>
-                <a href="#about">Tentang Saya</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#education">Pendidikan</a>
-                <a href="#experience">Pengalaman</a>
-                <a href="#blog">Blog</a>
-                <a href="#contact">Kontak</a>
-            </nav>
-        </div>
+        <nav class="site-nav" id="site-nav">
+          <a href="#home">Beranda</a>
+          <a href="#tentang-saya">Tentang Saya</a>
+          <a href="#journey">Pendidikan</a>
+          <a href="#portfolio">Portofolio</a>
+          <a href="#experience">Pengalaman</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section class="hero" id="home">
-            <div class="container hero-grid">
-                <div class="hero-copy reveal">
-                    <p class="section-label">Web Programmer</p>
-                    <h1>Khairul Kahpi</h1>
-                    <p class="hero-lead">Web Programmer dengan pengalaman lebih dari 4 tahun dalam merancang dan mengembangkan sistem berbasis web menggunakan framework CodeIgniter dan Laravel.</p>
-                    <p class="hero-text">Memiliki kemampuan kuat dalam analisis dan perancangan struktur database menggunakan MongoDB dan MySQL, penerapan Object-Oriented Programming, pengembangan RESTful API, serta pengujian fungsional untuk menjaga stabilitas, performa, dan skalabilitas sistem.</p>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="hero-kicker">Fullstack Developer</p>
+            <h1><span>Khairul</span><br />Kahpi</h1>
+            <p class="hero-role">
+              &gt; Fullstack Developer Di Dinas Komunikasi Dan Informatika Kab
+              Lombok Tengah
+            </p>
 
-                    <div class="hero-actions">
-                        <a href="#portfolio" class="button button-primary">Lihat Portfolio</a>
-                        <a href="#about" class="button button-secondary">Lihat Profil</a>
-                    </div>
-
-                    <div class="hero-stats">
-                        <article>
-                            <strong>4+ Tahun Pengalaman</strong>
-                            <span>Fokus pada pengembangan aplikasi web yang terstruktur, efisien, dan siap berkembang.</span>
-                        </article>
-                        <article>
-                            <strong>Laravel & CodeIgniter</strong>
-                            <span>Berpengalaman membangun backend modular dengan pendekatan yang konsisten dan maintainable.</span>
-                        </article>
-                        <article>
-                            <strong>MySQL, MongoDB, REST API</strong>
-                            <span>Mengutamakan desain data, integrasi sistem, dan kualitas performa pada level aplikasi.</span>
-                        </article>
-                    </div>
-                </div>
-
-                <div class="hero-visual reveal">
-                    <div class="portrait-frame">
-                        <div class="portrait-badge">Professional Web Engineer</div>
-                        <img src="img/aku.jpg" alt="Potret Khairul Kahpi">
-                    </div>
-
-                    <div class="floating-card">
-                        <p class="floating-label">Core Expertise</p>
-                        <h2>Architecture, API, Database</h2>
-                        <p>Berorientasi pada efisiensi arsitektur, kualitas kode, keberlanjutan pengembangan, dan ketahanan sistem dalam skala penggunaan yang terus bertumbuh.</p>
-                    </div>
-                </div>
+            <div class="hero-actions">
+              <a href="#portfolio" class="button button-primary"
+                >Lihat Proyek</a
+              >
+              <a href="#contact" class="button button-secondary"
+                >Hubungi Saya</a
+              >
             </div>
-        </section>
 
-        <section class="section section-light" id="about">
-            <div class="container split-layout">
-                <div class="section-heading reveal">
-                    <p class="section-label">Tentang Saya</p>
-                    <h2 class="section-title">Membangun sistem web dengan fondasi teknis yang kuat dan pendekatan pengembangan yang berkelanjutan.</h2>
-                    <p class="section-description">Saya berfokus pada pengembangan sistem berbasis web dengan kombinasi framework CodeIgniter dan Laravel, desain struktur database yang tepat, implementasi OOP yang rapi, dan integrasi RESTful API yang scalable. Setiap solusi dikembangkan dengan perhatian pada performa, stabilitas, efisiensi arsitektur, dan kualitas kode jangka panjang.</p>
-                </div>
-
-                <div class="about-grid reveal">
-                    <article class="info-card">
-                        <span class="card-number">01</span>
-                        <h3>Pengembangan Framework Web</h3>
-                        <p>Terbiasa membangun aplikasi backend dan sistem informasi berbasis Laravel dan CodeIgniter dengan struktur modular yang mudah dikembangkan.</p>
-                    </article>
-                    <article class="info-card">
-                        <span class="card-number">02</span>
-                        <h3>Perancangan Database</h3>
-                        <p>Memiliki kemampuan dalam analisis kebutuhan data, penyusunan skema, normalisasi, dan optimasi struktur database pada MySQL maupun MongoDB.</p>
-                    </article>
-                    <article class="info-card">
-                        <span class="card-number">03</span>
-                        <h3>RESTful API & OOP</h3>
-                        <p>Menerapkan prinsip Object-Oriented Programming dan pengembangan RESTful API untuk integrasi antarlayanan yang lebih rapi dan terukur.</p>
-                    </article>
-                    <article class="info-card">
-                        <span class="card-number">04</span>
-                        <h3>Testing & Scalability</h3>
-                        <p>Mengutamakan pengujian fungsional, stabilitas sistem, dan kesiapan aplikasi untuk terus berkembang tanpa menurunkan kualitas implementasi.</p>
-                    </article>
-                </div>
+            <div class="hero-links">
+              <a
+                href="https://github.com/khairul2524"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+              <a
+                href="https://gitlab.com/KhairuelKahfie/"
+                target="_blank"
+                rel="noreferrer"
+                >GitLab</a
+              >
+              <a
+                href="https://www.linkedin.com/in/khairoel-kahfie-818376176/"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn</a
+              >
+              <a
+                href="https://www.instagram.com/khairoelkahfie/"
+                target="_blank"
+                rel="noreferrer"
+                >Instagram</a
+              >
             </div>
-        </section>
+          </div>
 
-        <section class="section section-light" id="portfolio">
-            <div class="container">
-                <div class="section-heading reveal">
-                    <p class="section-label">Portfolio</p>
-                    <h2 class="section-title">Ruang lingkup pekerjaan yang mewakili pengalaman profesional di pengembangan sistem web.</h2>
-                    <p class="section-description">Bagian ini menampilkan fokus kontribusi yang saya kerjakan dalam pengembangan aplikasi berbasis web, mulai dari backend architecture, database design, integrasi API, hingga penguatan stabilitas dan skalabilitas sistem.</p>
-                </div>
-
-                <div class="project-grid">
-                    <article class="project-card reveal">
-                        <span class="project-kicker">Enterprise Web App</span>
-                        <h3>Pengembangan Sistem Informasi Berbasis Web</h3>
-                        <p>Merancang dan mengembangkan sistem web untuk kebutuhan operasional dan bisnis dengan arsitektur yang efisien, mudah dipelihara, dan berorientasi pada kebutuhan jangka panjang.</p>
-                        <div class="project-stack">
-                            <span>Laravel</span>
-                            <span>CodeIgniter</span>
-                            <span>OOP</span>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal">
-                        <span class="project-kicker">Backend Engineering</span>
-                        <h3>Pengembangan RESTful API</h3>
-                        <p>Membangun API untuk komunikasi antar sistem dengan struktur endpoint yang konsisten, validasi data yang jelas, dan desain layanan yang siap diintegrasikan.</p>
-                        <div class="project-stack">
-                            <span>REST API</span>
-                            <span>Authentication</span>
-                            <span>JSON</span>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal">
-                        <span class="project-kicker">Database Architecture</span>
-                        <h3>Analisis dan Struktur Database</h3>
-                        <p>Menyusun desain data yang efisien dengan mempertimbangkan relasi, performa query, fleksibilitas struktur, dan keberlanjutan pengembangan sistem.</p>
-                        <div class="project-stack">
-                            <span>MySQL</span>
-                            <span>MongoDB</span>
-                            <span>Query Design</span>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal">
-                        <span class="project-kicker">System Refactoring</span>
-                        <h3>Perapihan dan Peningkatan Kualitas Kode</h3>
-                        <p>Melakukan refactor pada modul aplikasi untuk meningkatkan konsistensi struktur, keterbacaan kode, serta kemudahan maintenance di fase pengembangan berikutnya.</p>
-                        <div class="project-stack">
-                            <span>Clean Code</span>
-                            <span>Refactor</span>
-                            <span>Maintainability</span>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal">
-                        <span class="project-kicker">Functional Testing</span>
-                        <h3>Pengujian Fungsional Aplikasi</h3>
-                        <p>Memastikan setiap fitur berjalan sesuai kebutuhan melalui pengujian fungsional agar aplikasi tetap stabil, reliabel, dan meminimalkan risiko bug di produksi.</p>
-                        <div class="project-stack">
-                            <span>QA</span>
-                            <span>Functional Test</span>
-                            <span>Stability</span>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal">
-                        <span class="project-kicker">Performance & Scale</span>
-                        <h3>Optimasi Performa dan Skalabilitas</h3>
-                        <p>Mengembangkan aplikasi dengan perhatian pada efisiensi proses, struktur data, dan kesiapan sistem untuk menangani pertumbuhan kebutuhan bisnis maupun teknis.</p>
-                        <div class="project-stack">
-                            <span>Scalability</span>
-                            <span>Performance</span>
-                            <span>Architecture</span>
-                        </div>
-                    </article>
-                </div>
+          <div class="hero-visual reveal">
+            <div class="portrait-shell">
+              <div class="portrait-card">
+                <img src="img/aku.jpg" alt="Potret Khairul Kahpi" />
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="section section-dark" id="education">
-            <div class="container">
-                <div class="section-heading reveal">
-                    <p class="section-label">Pendidikan</p>
-                    <h2 class="section-title">Landasan pembelajaran yang mendukung pendekatan profesional dalam pengembangan aplikasi web.</h2>
-                    <p class="section-description">Bagian pendidikan saya posisikan sebagai fondasi kompetensi teknis, pola pikir analitis, dan kebiasaan belajar berkelanjutan yang mendukung kualitas implementasi pada setiap proyek.</p>
-                </div>
+      <section class="section section-about" id="tentang-saya">
+        <div class="container about-shell">
+          <div class="about-header-copy">
+            <p class="about-kicker">Tentang Saya</p>
+          </div>
+          <div class="about-grid">
+            <article class="about-block about-lead reveal">
+              <h4>Fullstack Developer</h4>
+              <p>
+                Saya Khairul Kahpi atau bisa dipanggil Kahpi. Saya merupakan
+                lulusan S1 Sistem Informasi di STMIK Lombok.
+              </p>
+              <p>
+                Saya berkarier sebagai seorang
+                <strong>Fullstack Developer</strong> di
+                <strong
+                  >Dinas Komunikasi dan Informatika Kabupaten Lombok
+                  Tengah</strong
+                >
+                dengan fokus pada pengembangan dashboard web yang rapi,
+                informatif, dan mudah digunakan. Ruang kerja utama saya ada pada
+                pembangunan sistem internal, integrasi data, serta antarmuka
+                berbasis web yang stabil dan terukur.
+              </p>
+            </article>
 
-                <div class="timeline-grid">
-                    <article class="timeline-card reveal">
-                        <span class="timeline-year">Fondasi</span>
-                        <h3>Dasar Pemrograman dan Logika Sistem</h3>
-                        <p>Pemahaman terhadap alur proses, struktur aplikasi, dan pola berpikir sistematis menjadi dasar kuat dalam membangun solusi web yang terarah.</p>
-                    </article>
-                    <article class="timeline-card reveal">
-                        <span class="timeline-year">Praktik</span>
-                        <h3>Analisis Data dan Struktur Database</h3>
-                        <p>Pendidikan dan pengalaman belajar membentuk kemampuan dalam menganalisis kebutuhan data serta menerjemahkannya menjadi desain database yang efektif.</p>
-                    </article>
-                    <article class="timeline-card reveal">
-                        <span class="timeline-year">Growth</span>
-                        <h3>Pembelajaran Berkelanjutan</h3>
-                        <p>Peningkatan kompetensi dilakukan terus-menerus melalui eksplorasi framework, dokumentasi teknis, praktik API, dan penguatan prinsip clean architecture.</p>
-                    </article>
+            <article class="about-block about-stack reveal">
+              <h3>Spesialisasi & Tech Stack Inti</h3>
+              <p>
+                Sebagai <strong>Fullstack Developer</strong>, spesialisasi saya
+                berfokus pada pengembangan sistem menggunakan
+                <strong>PHP</strong> dengan pendekatan yang efisien dan siap
+                diimplementasikan.
+              </p>
+              <div class="about-stack-list">
+                <p>
+                  <strong>Backend:</strong> Laravel, CodeIgniter, RESTful API.
+                </p>
+                <p>
+                  <strong>Data:</strong> MySQL, MongoDB, pengolahan dan
+                  integrasi data.
+                </p>
+                <p>
+                  <strong>Frontend:</strong> HTML, CSS, JavaScript untuk
+                  dashboard dan antarmuka sistem.
+                </p>
+                <p>
+                  <strong>Pendekatan:</strong> Clean code, visualisasi data, dan
+                  fitur berbasis machine learning.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-education" id="journey">
+        <div class="container">
+          <div class="education-header-copy reveal">
+            <p class="about-kicker">Pendidikan</p>
+          </div>
+
+          <article class="education-block education-wide reveal">
+            <h3>Jejak pembelajaran</h3>
+
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="timeline-marker">
+                  <span class="timeline-step">Akademik</span>
+                  <span class="timeline-label">Fondasi utama</span>
                 </div>
+                <div class="timeline-content">
+                  <h4>S1 Sistem Informasi - STMIK Lombok</h4>
+                  <p>
+                    Membentuk dasar analisis sistem, logika proses, dan cara
+                    berpikir terstruktur untuk merancang solusi digital yang
+                    efisien dan relevan dengan kebutuhan pengguna.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-marker">
+                  <span class="timeline-step">Pelatihan</span>
+                  <span class="timeline-label">Penguatan teknis</span>
+                </div>
+                <div class="timeline-content">
+                  <h4>Digital Talent Scholarship</h4>
+                  <p>
+                    Memperkuat pemahaman terhadap struktur kelas, modularitas,
+                    dan penyusunan logika aplikasi agar implementasi kode lebih
+                    rapi, terarah, dan mudah dikembangkan.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-marker">
+                  <span class="timeline-step">Kursus</span>
+                  <span class="timeline-label">Belajar mandiri</span>
+                </div>
+                <div class="timeline-content">
+                  <h4>Kursus Online Dicoding</h4>
+                  <p>
+                    Menambah praktik belajar secara mandiri melalui materi
+                    terstruktur, studi kasus, dan pembiasaan untuk terus
+                    mengikuti pola kerja serta teknologi yang lebih modern.
+                  </p>
+                </div>
+              </article>
             </div>
-        </section>
+          </article>
+        </div>
+      </section>
 
-        <section class="section section-light" id="experience">
-            <div class="container">
-                <div class="section-heading reveal">
-                    <p class="section-label">Pengalaman</p>
-                    <h2 class="section-title">Pengalaman profesional yang berfokus pada backend system, database, dan kualitas implementasi.</h2>
-                    <p class="section-description">Lebih dari sekadar membangun fitur, pengalaman saya berfokus pada bagaimana sistem dapat berjalan stabil, mudah dikembangkan, dan tetap efisien ketika kebutuhan bisnis bertambah kompleks.</p>
-                </div>
-
-                <div class="experience-grid">
-                    <article class="experience-card reveal">
-                        <span class="experience-role">4+ Tahun</span>
-                        <h3>Pengembangan Sistem Berbasis Web</h3>
-                        <p>Membangun, menyesuaikan, dan mengembangkan modul aplikasi web untuk mendukung proses bisnis melalui Laravel dan CodeIgniter.</p>
-                    </article>
-                    <article class="experience-card reveal">
-                        <span class="experience-role">Database & API</span>
-                        <h3>Desain Struktur Data dan Integrasi</h3>
-                        <p>Menerjemahkan kebutuhan sistem menjadi skema database, query, dan RESTful API yang jelas, aman, dan siap digunakan oleh berbagai modul aplikasi.</p>
-                    </article>
-                    <article class="experience-card reveal">
-                        <span class="experience-role">Quality Focus</span>
-                        <h3>Stabilitas, Testing, dan Maintenance</h3>
-                        <p>Menjaga kualitas sistem melalui pengujian fungsional, evaluasi performa, dan perbaikan berkelanjutan agar aplikasi tetap andal dalam penggunaan nyata.</p>
-                    </article>
-                </div>
+      <section class="section section-portfolio" id="portfolio">
+        <div class="container portfolio-shell">
+          <div class="portfolio-header reveal">
+            <div class="portfolio-header-copy">
+              <p class="about-kicker">Portofolio</p>
             </div>
-        </section>
+          </div>
 
-        <section class="section section-light" id="blog">
-            <div class="container">
-                <div class="section-heading reveal">
-                    <p class="section-label">Blog</p>
-                    <h2 class="section-title">Insight teknis yang relevan dengan pengembangan aplikasi web dan backend engineering.</h2>
-                    <p class="section-description">Bagian ini dapat digunakan untuk menampilkan artikel teknis, pembelajaran proyek, dan insight seputar framework, database, API, serta kualitas pengembangan sistem.</p>
-                </div>
+          <div class="portfolio-grid">
+            <article class="portfolio-project reveal">
+              <div class="portfolio-preview">
+                <img
+                  src="img/project/ppid.png"
+                  alt="Dashboard PPID Kabupaten Lombok Tengah"
+                />
+              </div>
 
-                <div class="insight-grid">
-                    <article class="insight-card reveal">
-                        <span class="insight-meta">Database Engineering</span>
-                        <h3>Menyusun struktur database yang efisien untuk kebutuhan aplikasi yang berkembang</h3>
-                        <p>Membahas pendekatan dalam memilih skema data, mengelola relasi, serta menjaga performa query pada MySQL dan MongoDB.</p>
-                    </article>
-                    <article class="insight-card reveal">
-                        <span class="insight-meta">Framework Practice</span>
-                        <h3>Membangun aplikasi yang maintainable dengan Laravel dan CodeIgniter</h3>
-                        <p>Menjelaskan bagaimana penerapan struktur modul, OOP, dan clean code berpengaruh pada maintenance serta keberlanjutan aplikasi.</p>
-                    </article>
-                    <article class="insight-card reveal">
-                        <span class="insight-meta">Testing & Stability</span>
-                        <h3>Peran pengujian fungsional dalam menjaga kualitas sistem berbasis web</h3>
-                        <p>Fokus pada bagaimana validasi fitur, pengecekan alur kerja, dan evaluasi stabilitas membantu mengurangi risiko error di produksi.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
+              <div class="portfolio-copy">
+                <h3>PPID Kabupaten Lombok Tengah</h3>
+                <a
+                  class="portfolio-link"
+                  href="https://ppid.lomboktengahkab.go.id"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Lihat Disini</a
+                >
+                <p>
+                  Aplikasi layanan informasi publik yang digunakan untuk
+                  menyediakan informasi pemerintah daerah secara online. Sistem
+                  ini memudahkan masyarakat mengakses informasi publik,
+                  mengajukan permohonan informasi, serta memantau proses
+                  permohonannya tanpa harus datang langsung ke kantor layanan.
+                </p>
+              </div>
+            </article>
 
-        <section class="statement">
-            <div class="container">
-                <div class="statement-card reveal">
-                    <div class="statement-content">
-                        <p class="section-label">Prinsip Kerja</p>
-                        <h2>Sistem yang baik bukan hanya berjalan, tetapi juga terstruktur, stabil, teruji, dan siap dikembangkan dalam jangka panjang.</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <article class="portfolio-project reveal">
+              <div class="portfolio-preview">
+                <img
+                  src="img/project/Screenshot%202026-06-07%20100428.png"
+                  alt="Dashboard inventory obat SPOT"
+                />
+              </div>
 
-        <section class="section section-light" id="contact">
-            <div class="container contact-grid">
-                <div class="section-heading reveal">
-                    <p class="section-label">Kontak</p>
-                    <h2 class="section-title">Terbuka untuk kolaborasi pengembangan aplikasi web, backend API, dan perancangan database.</h2>
-                    <p class="section-description">Jika Anda membutuhkan pengembangan sistem berbasis Laravel atau CodeIgniter, desain database yang efisien, integrasi RESTful API, atau peningkatan kualitas aplikasi yang sudah berjalan, bagian ini dapat digunakan sebagai titik awal koneksi profesional.</p>
-                </div>
+              <div class="portfolio-copy">
+                <h3>SPOT</h3>
+                <a
+                  class="portfolio-link"
+                  href="https://spotdikesloteng.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Lihat Disini</a
+                >
+                <p>
+                  Aplikasi berbasis digital yang digunakan untuk mengelola dan
+                  memantau data logistik obat secara terpadu. Sistem ini
+                  membantu proses pencatatan stok obat, penerimaan, pengeluaran,
+                  distribusi, pemakaian, serta pelaporan ketersediaan obat
+                  secara lebih cepat, akurat, dan terkontrol.
+                </p>
+                <p>
+                  Sistem ini saya bangun menggunakan framework Laravel, kemudian
+                  dikembangkan dengan model Machine Learning Prophet untuk
+                  mendukung fitur rekomendasi pengadaan obat berdasarkan data
+                  yang tersedia.
+                </p>
+              </div>
+            </article>
+            <article class="portfolio-project reveal">
+              <div class="portfolio-preview">
+                <img
+                  src="img/project/simadu.png"
+                  alt="Dashboard PPID Kabupaten Lombok Tengah"
+                />
+              </div>
 
-                <div class="contact-card reveal">
-                    <div class="contact-row">
-                        <span>Profil</span>
-                        <strong>Khairul Kahpi</strong>
-                    </div>
-                    <div class="contact-row">
-                        <span>Peran</span>
-                        <strong>Web Programmer - Laravel, CodeIgniter, RESTful API, MySQL, MongoDB</strong>
-                    </div>
-                    <div class="contact-row">
-                        <span>Fokus</span>
-                        <strong>Arsitektur efisien, kualitas kode, pengujian fungsional, dan skalabilitas sistem</strong>
-                    </div>
+              <div class="portfolio-copy">
+                <h3>SIMADU</h3>
+                <a
+                  class="portfolio-link"
+                  href="https://simadu.lomboktengahkab.go.id/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Lihat Disini</a
+                >
+                <p>
+                  SIMADU atau Sistem Pengawasan Terpadu adalah aplikasi berbasis
+                  web yang digunakan oleh Inspektorat Kabupaten Lombok Tengah
+                  untuk mengelola dan memantau proses tindak lanjut hasil
+                  pengawasan yang tercantum dalam Laporan Hasil Audit/Laporan
+                  Hasil Pemeriksaan (LHA/LHP).
+                </p>
+              </div>
+            </article>
 
-                    <div class="contact-actions">
-                        <a href="#home" class="button button-primary">Kembali ke Atas</a>
-                        <a href="#about" class="button button-secondary">Lihat Profil</a>
-                    </div>
+            <article class="portfolio-project reveal">
+              <div class="portfolio-preview">
+                <img
+                  src="img/project/Screenshot%202026-06-07%20100428.png"
+                  alt="Dashboard inventory obat SPOT"
+                />
+              </div>
 
-                    <div class="contact-support">
-                        <p class="support-note">Media sosial dan link pendukung berikut dapat digunakan untuk menampilkan identitas profesional, repository proyek, dokumentasi teknis, dan kanal komunikasi lainnya.</p>
+              <div class="portfolio-copy">
+                <h3>SIMAKO</h3>
+                <a
+                  class="portfolio-link"
+                  href="https://simako.lomboktengahkab.go.id/login"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Lihat Disini</a
+                >
+                <p>
+                  SIMAKO merupakan aplikasi pendataan petani dan buruh tani
+                  tembakau yang digunakan untuk mengelola data secara lebih
+                  tertib, akurat, dan terintegrasi. Sistem ini saya bangun
+                  menggunakan framework Laravel serta diintegrasikan dengan API
+                  Google Maps untuk mendukung fitur tagging lokasi petani dan
+                  buruh tani tembakau.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-                        <div class="support-links">
-                            <a class="support-link" href="https://github.com/" target="_blank" rel="noreferrer">
-                                <span class="support-icon">GH</span>
-                                <span class="support-text">
-                                    <strong>GitHub</strong>
-                                    <small>Project, repository, dan source code</small>
-                                </span>
-                            </a>
+      <section class="section section-experience" id="experience">
+        <div class="container experience-shell">
+          <div class="experience-heading reveal">
+            <p class="experience-kicker">Pengalaman</p>
+            <h2>Pengalaman Kerja, Freelance, & Magang</h2>
+          </div>
 
-                            <a class="support-link" href="https://gitlab.com/" target="_blank" rel="noreferrer">
-                                <span class="support-icon">GL</span>
-                                <span class="support-text">
-                                    <strong>GitLab</strong>
-                                    <small>Kolaborasi kode dan dokumentasi teknis</small>
-                                </span>
-                            </a>
+          <div class="experience-band reveal">
+            <article class="experience-entry">
+              <span class="experience-type">Freelance</span>
+              <div class="experience-logo-box experience-logo-box--text">
+                <span class="experience-wordmark">SASAMBO TECHNO</span>
+              </div>
+              <h3>Freelance Web Development</h3>
+            </article>
+            <article class="experience-entry">
+              <span class="experience-type">Kerja</span>
+              <div class="experience-logo-box">
+                <img src="img/instansi/smk.png" alt="SMK Al-Hasanain" />
+              </div>
+              <h3>SMK Al-Hasanain</h3>
+            </article>
+            <article class="experience-entry experience-entry--work">
+              <span class="experience-type">Kerja</span>
+              <div class="experience-logo-box experience-logo-box--wide">
+                <img
+                  src="img/instansi/download.png"
+                  alt="Dinas Komunikasi dan Informatika Kabupaten Lombok Tengah"
+                />
+              </div>
+              <h3>Dinas Komunikasi dan Informatika Kabupaten Lombok Tengah</h3>
+            </article>
+          </div>
+        </div>
+      </section>
 
-                            <a class="support-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                <span class="support-icon">IN</span>
-                                <span class="support-text">
-                                    <strong>LinkedIn</strong>
-                                    <small>Profil profesional dan jaringan karier</small>
-                                </span>
-                            </a>
+      <section class="section section-contact" id="contact">
+        <div class="container contact-shell reveal">
+          <div class="contact-copy">
+            <p class="contact-badge">Kontak</p>
+            <h4>Mari Terhubung</h4>
+            <p>
+              Terbuka untuk kolaborasi pengembangan sistem, diskusi teknis, dan
+              kebutuhan backend. Temukan saya di kanal aktif berikut.
+            </p>
+          </div>
 
-                            <a class="support-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-                                <span class="support-icon">IG</span>
-                                <span class="support-text">
-                                    <strong>Instagram</strong>
-                                    <small>Aktivitas personal dan visual keseharian</small>
-                                </span>
-                            </a>
+          <div class="contact-card-grid">
+            <a
+              class="contact-card"
+              href="https://github.com/khairul2524"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact-card-icon">GH</span>
+              <span class="contact-card-body">
+                <span class="contact-card-text">GitHub</span>
+                <span class="contact-card-meta"
+                  >Repositori kode dan eksperimen</span
+                >
+              </span>
+            </a>
 
-                            <a class="support-link" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-                                <span class="support-icon">YT</span>
-                                <span class="support-text">
-                                    <strong>YouTube</strong>
-                                    <small>Dokumentasi video, karya, atau presentasi</small>
-                                </span>
-                            </a>
+            <a
+              class="contact-card"
+              href="https://gitlab.com/KhairuelKahfie/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact-card-icon">GL</span>
+              <span class="contact-card-body">
+                <span class="contact-card-text">GitLab</span>
+                <span class="contact-card-meta"
+                  >Workflow proyek dan versioning</span
+                >
+              </span>
+            </a>
 
-                            <a class="support-link" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                <span class="support-icon">FB</span>
-                                <span class="support-text">
-                                    <strong>Facebook</strong>
-                                    <small>Channel tambahan untuk koneksi dan informasi</small>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <a
+              class="contact-card"
+              href="https://www.linkedin.com/in/khairoel-kahfie-818376176/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact-card-icon">in</span>
+              <span class="contact-card-body">
+                <span class="contact-card-text">LinkedIn</span>
+                <span class="contact-card-meta"
+                  >Profil profesional dan jaringan kerja</span
+                >
+              </span>
+            </a>
+
+            <a
+              class="contact-card"
+              href="https://www.instagram.com/khairoelkahfie/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact-card-icon">IG</span>
+              <span class="contact-card-body">
+                <span class="contact-card-text">Instagram</span>
+                <span class="contact-card-meta"
+                  >Aktivitas visual dan update singkat</span
+                >
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container footer-shell">
-            <p><strong>Khairul Kahpi</strong> &copy; 2026</p>
-            <p>Web Programmer dengan fokus pada Laravel, CodeIgniter, database architecture, RESTful API, dan kualitas sistem.</p>
-        </div>
+      <div class="container footer-shell">
+        <p><strong>Khairul Kahpi</strong> &copy; 2026</p>
+      </div>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
